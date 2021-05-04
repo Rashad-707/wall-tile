@@ -64,17 +64,7 @@ include-file = $HOME/.config/polybar/modules.ini
 ;---------------------------------------
 ;		CENTAR BARS          
 ;---------------------------------------
-
 ; for the bar to be centered --> setting width = X% and offset-x = Y%, so that X + 2 * Y = 100.
-
-; no need for this because there is no background here,
-; so the background bar will hold the modules
-;[bar/wall-tile-center]
-;    inherit = constants/main
-;    background = ${colors.color1}
-;    width = 8%
-;    offset-x = 46%
-;    modules-center = workspaces
 
 [bar/wall-tile-center-background]
     inherit = constants/background
