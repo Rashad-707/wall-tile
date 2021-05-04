@@ -1,0 +1,74 @@
+include-file = $HOME/.config/polybar/colors.ini
+include-file = $HOME/.config/polybar/modules.ini
+
+;---------------------------------------
+;		Global - MAIN BARS          
+;---------------------------------------
+
+[constants/main]
+    include-file = $HOME/.config/polybar/fonts.ini
+    override-redirect = true
+    height = 45
+    offset-y = 20
+    radius = 23
+    fixed-center = true
+
+;---------------------------------------
+;		Global - BACKGROUND BARS          
+;---------------------------------------
+
+[constants/background]
+    include-file = $HOME/.config/polybar/fonts.ini
+    override-redirect = true
+    height = 60
+    offset-y = 12.5
+    radius = 28 
+    fixed-center = true
+
+;---------------------------------------
+;		RIGHT BARS          
+;---------------------------------------
+
+[bar/wall-tile-right]
+    inherit = constants/main
+    background = ${colors.color4}
+    width = 519
+    offset-x = 3300
+    modules-right = round-left-purple pulseaudio date time turn-off round-right-blue
+
+[bar/wall-tile-right-background]
+    inherit = constants/background
+    background = ${colors.color1}
+    width = 534
+    offset-x = 3292
+    modules-center = white
+
+;---------------------------------------
+;		LEFT BARS          
+;---------------------------------------
+
+[bar/wall-tile-left]
+    inherit = constants/main
+    background = ${colors.color1}
+    width = 610
+    offset-x = 24
+    modules-left = round-left-blue rofi music mpd round-right-pink song
+
+[bar/wall-tile-left-background]
+    inherit = constants/background
+    background = ${colors.color1}
+    width = 625
+    offset-x = 16
+    modules-center = white
+
+;---------------------------------------
+;		CENTAR BARS          
+;---------------------------------------
+; for the bar to be centered --> set width = X% and offset-x = Y%, so that X + (2 * Y) = 100.
+
+[bar/wall-tile-center-background]
+    inherit = constants/background
+    background = ${colors.color1}
+    width = 8%
+    offset-x = 46%
+    modules-center = workspaces
