@@ -1,0 +1,64 @@
+# Font
+font:
+  size:           9
+  normal:
+    family:         Monaco
+    style:          Regular
+    offset:
+    x:              0
+    y:              0
+
+window:
+  padding:
+    x:              16
+    y:              16
+  dynamic_padding:  true
+background_opacity: 1
+
+colors:
+  primary:
+    background:     '#EDEFF1'
+    foreground:     '#1D344F'
+    dim_foreground: '#a5abb6'
+ 
+  cursor:
+    text:           '#2e3440'
+    cursor:         '#d8dee9'
+ 
+  vi_mode_cursor:
+    text:           '#2e3440'
+    cursor:         '#d8dee9'
+ 
+  selection:
+    text:           CellBackground
+    background:     CellForeground
+ 
+  normal:
+     black:         '#1D344F'
+     red:           '#C98093'
+     green:         '#7ca198'
+     yellow:        '#c48d52'
+     blue:          '#6080b0'
+     magenta:       '#8e6f98'
+     cyan:          '#6ca8cf'
+     white:         '#CDD1D5'
+ 
+  bright:
+     black:         '#1D344F'
+     red:           '#C98093'
+     green:         '#7ca198'
+     yellow:        '#c48d52'
+     blue:          '#6080b0'
+     magenta:       '#8e6f98'
+     cyan:          '#6ca8cf'
+     white:         '#CDD1D5'
+ 
+  dim:
+     black:         '#1D344F'
+     red:           '#C98093'
+     green:         '#7ca198'
+     yellow:        '#c48d52'
+     blue:          '#6080b0'
+     magenta:       '#8e6f98'
+     cyan:          '#6ca8cf'
+     white:         '#CDD1D5'
