@@ -8,12 +8,12 @@
 
 window 
 {
-	location:	             northwest;
-	x-offset:                20px;
+    location:	             northwest;
+    x-offset:                20px;
     y-offset:                80px;
-	height:		             620px;
-	width:		             530px;
-	orientation:             horizontal;
+    height:		     620px;
+    width:		     530px;
+    orientation:             horizontal;
     padding:                 10px;
 }
 
