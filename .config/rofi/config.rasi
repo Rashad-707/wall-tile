@@ -10,7 +10,7 @@ configuration {
 	separator-style: 	"solid";
 	hide-scrollbar: 	true;
 	theme:			"~/.local/share/rofi/wall-tile.rasi";
-	show-icons: true;   
-	display-drun: "";
-	display-run: "";
+	show-icons: 		true;   
+	display-drun: 		"";
+	display-run: 		"";
 	}
