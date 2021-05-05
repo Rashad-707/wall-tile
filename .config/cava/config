@@ -1,0 +1,29 @@
+[general]
+bars = 14
+bar_width = 4
+bar_spacing = 1
+
+[output]
+method = ncurses
+
+[color]
+# Colors can be one of seven predefined: black, blue, cyan, green, magenta, red, white, yellow.
+# Or defined by hex code '#xxxxxx' (hex code must be within ''). User defined colors requires a
+# terminal that can change color definitions such as Gnome-terminal or rxvt.
+
+# background = black
+# foreground = cyan
+
+# Gradient mode, only hex defined colors are supported, background must also be defined in hex
+# or remain commented out. 1 = on, 0 = off. Warning: for certain terminal emulators cava will
+# not able to restore color definitions on exit, simply restart your terminal to restore colors.
+
+gradient = 1
+gradient_color_1 = '#93A9C9'
+gradient_color_2 = '#A5A0C1'
+gradient_color_3 = '#B398BB'
+gradient_color_4 = '#BC9DB9'
+gradient_color_5 = '#CBA5B6'
+gradient_color_6 = '#D3A9B4'
+gradient_color_7 = '#DCB4A5'
+gradient_color_8 = '#E6C096'
