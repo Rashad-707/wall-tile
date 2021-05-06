@@ -3,4 +3,5 @@
   
 [Chrome startpage](https://github.com/PrettyCoffee/fluidity)  
 VSCode theme created by [this tool](https://medium.com/wearelaika/vscode-create-your-own-custom-theme-extension-96c67bd753f6)  ([this websit](https://themes.vscode.one/) may also help)   
-[Ueberzug](https://github.com/seebye/ueberzug) Image backend used in neofetch for alacritty terminal
+[Ueberzug](https://github.com/seebye/ueberzug) -> Image backend used in neofetch for alacritty terminal  
+[ncmpcpp-uberzug] https://github.com/alnj/ncmpcpp-ueberzug -> cover art in ncmpcpp
