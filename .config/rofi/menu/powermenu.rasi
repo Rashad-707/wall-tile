@@ -1,0 +1,36 @@
+*
+{
+    background-color:   #EDEFF1;
+    text-color:         #1D344F;
+    font:               "Monaco 14";
+}
+
+window
+{
+  width:                200px;
+  height:               310px;
+  location:	            northeast;
+  x-offset:             -20px;
+  y-offset:             80px;
+  padding:              10px;
+
+  children:             [ listview ];
+}
+
+listview
+{
+  layout:               vertical;
+  lines:                5;
+}
+
+element
+{
+  text-color:           #1D344F;
+  padding:              16px;
+}
+
+element.selected
+{
+  background-color:     #D7B38B;
+  text-color:           #EDEFF1;
+}
