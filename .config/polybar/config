@@ -34,7 +34,7 @@ include-file = $HOME/.config/polybar/modules.ini
     background = ${colors.color4}
     width = 519
     offset-x = 3300
-    modules-right = round-left-purple pulseaudio date time turn-off round-right-blue
+    modules-right = round-left-purple pulseaudio date time powermenu round-right-blue
 
 [bar/wall-tile-right-background]
     inherit = constants/background
