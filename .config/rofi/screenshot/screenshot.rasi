@@ -7,7 +7,7 @@
 
 window
 {
-  width:                153;
+  width:                145;
   height:               354px;
   location:	            east;
   x-offset:             -20px;
@@ -32,7 +32,7 @@ element
 
 element-text {
     margin:             18px 0px 18px 0px;
-    padding:            5px;
+    padding:            5px 5px 5px 0px;
 }
 
 element.selected
