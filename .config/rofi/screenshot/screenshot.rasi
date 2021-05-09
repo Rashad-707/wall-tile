@@ -1,0 +1,42 @@
+*
+{
+    background-color:   #EDEFF1;
+    text-color:         #1D344F;
+    font:               "Feather 30";
+}
+
+window
+{
+  width:                153;
+  height:               354px;
+  location:	            east;
+  x-offset:             -20px;
+  padding:              20px;
+
+  children:             [ listview ];
+}
+
+listview
+{
+  layout:               vertical;
+  lines:                3;
+  spacing:              16px;
+}
+
+element
+{
+  text-color:           #1D344F;
+  background-color:     #dfe2e6;
+  border-radius:        12px;
+}
+
+element-text {
+    margin:             18px 0px 18px 0px;
+    padding:            5px;
+}
+
+element.selected
+{
+  background-color:     #6CA8CF;
+  text-color:           #EDEFF1;
+}
