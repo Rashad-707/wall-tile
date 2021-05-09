@@ -11,6 +11,7 @@ configuration {
 	hide-scrollbar: 	true;
 	theme:			"~/.local/share/rofi/wall-tile.rasi";
 	show-icons: 		true;   
+	icon-theme:		"Zafiro";
 	display-drun: 		"";
 	display-run: 		"";
 	}
