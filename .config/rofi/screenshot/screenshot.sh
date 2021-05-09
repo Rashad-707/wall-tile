@@ -9,7 +9,7 @@ chosen=$(printf '%s;%s;%s\n' "$screen" "$area" "$window" \
     | rofi -theme 'screenshot/screenshot.rasi' \
            -dmenu \
            -sep ';' \
-           -selected-row 0)
+           -selected-row 1)
 
 case "$chosen" in
     "$screen")
